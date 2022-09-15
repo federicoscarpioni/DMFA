@@ -1,5 +1,5 @@
 """
-Dynamic Multi-Frequency Analysis
+Dynamic Multi-Frequency Analysis (DMFA)
 Authors: Federico Scarpioni and Nicolò Pianta
 Based on the work of Alberto Battistel and Fabio La Mantia
 Date: September 2022
