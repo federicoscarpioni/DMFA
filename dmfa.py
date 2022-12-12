@@ -4,9 +4,20 @@ Authors: Federico Scarpioni and Nicolò Pianta
 Based on the work of Alberto Battistel and Fabio La Mantia
 Date: September 2022
 
-This modules contains a series of function to perform the Dynamic Multi-Frequency
+This module contains a series of functions to perform the Dynamic Multi-Frequency
 Analysis on digitally sampled current and voltage signals. The main code is after
-the function declarations.
+the function declarations. The user shall import their own frequencies and signal
+to load in the variables multisine_freq, voltage, current, time_experiment. Also,
+the used sampling_rate for the acquisition and the specific parameters for the 
+DMFA n, bw and DT as described in the following publications:
+
+[1] Dynamic impedance spectroscopy using dynamic multi-frequency 
+    analysis: A theoretical and experimental investigation - Koster et al. 2017
+[2] On the physical definition of dynamic impedance: How to design 
+    an optimal strategy for data extraction - Battistel, La Mantia, 2019
+[3] Evaluation of kinetic parameters of non-faradic processes in carbon-based 
+    electrodes using multisine dynamic electrochemical impedance spectroscopy 
+    - Pianta et al. 2022
 
 """
 import numpy as np
